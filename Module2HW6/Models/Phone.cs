@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Module2HW6.Models
+namespace Module2HW6.Abstractions
 {
     public class Phone : Computers
     {

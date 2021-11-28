@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Module2HW6.Models
+namespace Module2HW6.Abstractions
 {
-    public abstract class Electronics : ElectricalAppliances
+    public abstract class Electronics : ElectricalAppliance
     {
         public ApplicationArea ApplicationArea { get; set; } = ApplicationArea.ConsumerElectronics;
     }
